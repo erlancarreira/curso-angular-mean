@@ -1,0 +1,19 @@
+{
+  "name": "curso-web-ang",
+  "version": "1.0.0",
+  "description": "T�tulo: Curso Mean Primeira Aplica��o do Zero | Tutor: Leonardo Moura. | Aluno: Erlan Carreira | E-mail: erlancarreira@hotmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlancarreira/curso-angular-mean.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlancarreira/curso-angular-mean/issues"
+  },
+  "homepage": "https://github.com/erlancarreira/curso-angular-mean#readme"
+}

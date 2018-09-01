@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="primeiraApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ consts.appName }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' gap:; script-src * data: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval'; object-src *; style-src 'self' data: 'unsafe-inline'; img-src 'self' data:; media-src 'self' data:; font-src 'self' data:; connect-src *">
+    <link rel="stylesheet" type="text/css" href="/assets/css/deps.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/app.min.css" />
+</head>
+<body class="skin-blue fixed sidebar-mini">
+    <div class="wrapper" ng-include="'/auth/form.html'"></div>
+    <script src="/assets/js/deps.min.js"></script>
+    <script src="/assets/js/app.min.js"></script>
+</body>
+</html>
